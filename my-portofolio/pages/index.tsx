@@ -1,6 +1,12 @@
 import React, { FC } from "react";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
+import Hi from "@/components/Hi";
+import Doodles from "@/components/Airpods";
+import Mac from "@/components/Imac";
+import Drone from "@/components/Drone";
+
+
 
 const IndexPage: FC = () => {
   return (
@@ -10,7 +16,6 @@ const IndexPage: FC = () => {
        />
        
       <div className="my-auto">
-        <div className="divide-solid">
 
         <section className="flex justify-between flex-wrap">
           <motion.div
@@ -19,7 +24,8 @@ const IndexPage: FC = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ type: "spring", stiffness: 30 }}
           >
-            <div className="mt-96">
+            <Hi/>
+            <div className="mt-16">
               <h4 className="mb-4 font-light tracking-widest">
                 Want to Network?
               </h4>
@@ -42,9 +48,13 @@ const IndexPage: FC = () => {
             // alt="hero"
             className="w-4/6 sm:w-auto xl:w-5/12 mb-4 sm:mb-0 mx-auto lg:mx-0"
           /> */}
+          <Doodles/>
+          <Mac/>
+          <Drone/>
         </section>
+          {/* <Game/> */}
             </div>
-      </div>
+          {/* <Airpods/> */}
     </>
   );
 };
