@@ -39,9 +39,6 @@ const Navigation: FC = () => {
           <MenuLinks links={links} toggle={() => toggleOpen()} key={"menu"} />
         )}
       </AnimatePresence>
-      <div class="divide-y-2 divide-dashed md:divide-solid">
-      <h1>end of navbar</h1>
-      </div>
     </>
   );
 };

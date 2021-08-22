@@ -14,7 +14,11 @@ const Layout: FC<Props> = ({ children }) => {
        />
       <div className="flex flex-col h-screen container mx-auto px-6">
         <Navigation />
+      <div className="mr-2  border-b-4 border-black ">
+        
+        </div>
         {children}
+        
       </div>
     </>
   );

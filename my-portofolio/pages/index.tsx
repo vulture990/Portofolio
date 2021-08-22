@@ -10,6 +10,8 @@ const IndexPage: FC = () => {
        />
        
       <div className="my-auto">
+        <div className="divide-solid">
+
         <section className="flex justify-between flex-wrap">
           <motion.div
             className="flex flex-col mb-6"
@@ -26,7 +28,7 @@ const IndexPage: FC = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="px-7 mb-2 border-4 rounded py-2 border-black bg-white hover:bg-gray-200 uppercase font-bold focus:outline-none"
-              >
+                >
                 Stay in touch
               </a>
             </div>
@@ -41,6 +43,7 @@ const IndexPage: FC = () => {
             className="w-4/6 sm:w-auto xl:w-5/12 mb-4 sm:mb-0 mx-auto lg:mx-0"
           /> */}
         </section>
+            </div>
       </div>
     </>
   );
